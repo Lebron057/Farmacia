@@ -1,6 +1,7 @@
 :root{
     --cinza-titulo: rgb(59, 59, 59);
     --azul-site: rgb(123, 143, 255);
+    --azul-fundo: rgba(92, 178, 235, 0.575);
 }
 
 *{
@@ -12,6 +13,7 @@
 body {
     padding: 0;
     color: var(--cinza-titulo);
+    background-color:var(--azul-fundo);
 }
 
 header {
@@ -31,7 +33,7 @@ nav {
 }
 
 h1{
-    padding: 5px
+    padding: 5px;
 }
 
 .nav-login{
@@ -58,7 +60,8 @@ a {
 }
 
 h3 {
-    font-size: 30;
+    font-size: 25;
+    margin: 3%;
 }
 
 .remd-anal{
@@ -72,6 +75,7 @@ li {
     border-color: black;
     background-color: beige;
     text-align: center;
+    list-style-type: none; /*Remove os pontos da lista*/
 }
 
 img {
