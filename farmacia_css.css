@@ -23,13 +23,29 @@ header {
 
 }
 
+/*não consegui alinhar o <h1> com os <a> dentro do <nav>*/
 nav {
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
-    
+h1{
+    padding: 5px
+}
+
+.nav-login{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    padding-right: 10px;
+    align-items: center;
+    justify-content: center;
+}
+/*todos os elementos da navbar*/
 
 .frase {
     padding: 2rem;
