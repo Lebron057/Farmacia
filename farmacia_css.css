@@ -71,11 +71,15 @@ h3 {
 }
 
 li {
-    border-radius: 5px;
-    border-color: black;
+    border-radius: 10px;
     background-color: beige;
+    color: rgb(29, 92, 175);
     text-align: center;
     list-style-type: none; /*Remove os pontos da lista*/
+}
+
+.preco{
+    color: rgb(0, 7, 99);
 }
 
 img {
