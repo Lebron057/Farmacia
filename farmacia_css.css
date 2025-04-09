@@ -99,6 +99,7 @@ button{
     border-width: 0px;
     font-size: 15px;
     color: white;
+    cursor: pointer;
 }
 
 footer {
