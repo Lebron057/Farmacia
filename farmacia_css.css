@@ -61,10 +61,11 @@ a {
 
 h3 {
     font-size: 25;
-    margin: 3%;
+    margin-inline: 20px;
+    margin-top: 2rem;
 }
 
-.remd-anal{
+.remedios{
     display: flex;
     padding: 1rem;
     gap: 2rem;
@@ -105,4 +106,5 @@ footer {
     padding: 1rem;
     text-align: center;
     color: black;
+    font-size: small;
 }
