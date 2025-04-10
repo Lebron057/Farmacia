@@ -81,6 +81,7 @@ h3 {
 
 .remedios{
     display: flex;
+    flex-wrap: wrap;
     padding: 1rem;
     gap: 2rem;
 }
@@ -127,4 +128,14 @@ footer {
     text-align: center;
     color: black;
     font-size: small;
+}
+
+
+/*No máximo 768px*/
+@media only screen and (max-width: 650px){
+    .remedios{
+        display: flex;
+        gap: 2rem; /* espaçamento entre os remédios */
+        align-items: center;
+    }
 }
