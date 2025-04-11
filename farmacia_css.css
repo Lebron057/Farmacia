@@ -132,10 +132,11 @@ footer {
 
 
 /*No máximo 768px*/
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 710px){
     .remedios{
         display: flex;
         gap: 2rem; /* espaçamento entre os remédios */
         align-items: center;
+        justify-content: center;
     }
 }
