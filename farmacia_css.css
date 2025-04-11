@@ -130,9 +130,8 @@ footer {
     font-size: small;
 }
 
-
 /*No máximo 768px*/
-@media only screen and (max-width: 710px){
+@media only screen and (max-width: 768px){
     .remedios{
         display: flex;
         gap: 2rem; /* espaçamento entre os remédios */
@@ -140,3 +139,8 @@ footer {
         justify-content: center;
     }
 }
+
+/*
+celular e tablet: 768px
+pc: >768px
+*/
