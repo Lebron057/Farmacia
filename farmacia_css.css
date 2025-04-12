@@ -132,11 +132,64 @@ footer {
 
 /*No máximo 768px*/
 @media only screen and (max-width: 768px){
+    
+    header {
+        padding: 1rem;
+        padding-left: 15px;
+        align-items: start;
+    }
+
+    .img-logo {
+        width: 60;
+        height: 60;
+    }
+
+    h1 {
+        font-size: 35px;
+        text-align: start;
+    }
+
+    .frase {
+        padding: 20px;
+        font-size: 25px;
+    }
+    
     .remedios{
         display: flex;
         gap: 2rem; /* espaçamento entre os remédios */
         align-items: center;
         justify-content: center;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    /*Limita o tamanho do card da lista*/
+    img {
+        width: 180px;
+        height: 180px;
+    }
+
+    li {
+        font-size: 25px;
+    }
+
+    button {
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 1rem;
+        font-size: 18px;
+    }
+
+    footer{
+        font-size: 16px;
+        padding: 1.5rem;
+    }
+
+    .p-footer {
+        margin: 3px;
     }
 }
 
