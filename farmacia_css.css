@@ -34,6 +34,7 @@ nav {
 
 h1{
     padding: 5px;
+    font-size: 50px;
 }
 
 .logo{
@@ -151,7 +152,7 @@ footer {
 
     .frase {
         padding: 20px;
-        font-size: 25px;
+        font-size: 15px;
     }
     
     .remedios{
