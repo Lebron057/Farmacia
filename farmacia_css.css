@@ -156,7 +156,7 @@ footer {
     
     .remedios{
         display: flex;
-        gap: 2rem; /* espaçamento entre os remédios */
+        column-gap: 3rem; /* espaçamento entre os remédios */
         align-items: center;
         justify-content: center;
     }
@@ -167,18 +167,18 @@ footer {
 
     /*Limita o tamanho do card da lista*/
     img {
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
     }
 
     li {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     button {
         padding: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
         margin: 1rem;
         font-size: 18px;
     }
