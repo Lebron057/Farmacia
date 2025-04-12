@@ -131,8 +131,8 @@ footer {
     font-size: small;
 }
 
-/*No máximo 768px*/
-@media only screen and (max-width: 768px){
+/*entre 376px e 768px*/
+@media only screen and (min-width: 376px) and (max-width: 768px){
     
     header {
         padding: 1rem;
@@ -193,6 +193,16 @@ footer {
         margin: 3px;
     }
 }
+
+/* no máximo 375px
+@media only screen and (max-width: 375px) {
+    button{
+        background-color: blueviolet;
+        font-size: 15px;
+        padding-inline: 2px;
+    }
+}
+*/
 
 /*
 celular e tablet: 768px
