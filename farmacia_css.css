@@ -16,7 +16,7 @@
 body {
     padding: 0;
     color: var(--cinza-titulo);
-    background-color:var(--azul-fundo);
+    background-color:var(--azul-fundo) !important;
 }
 
 header {
@@ -120,7 +120,7 @@ img {
     height: 200;
 }
 
-.button{
+.button-compra{
     background-color: orange;
     border-radius: 5px;
     padding: 10px;
@@ -145,6 +145,10 @@ footer {
     text-align: center;
     color: black;
     font-size: small;
+}
+
+p {
+    margin: 0 !important;
 }
 
 /*entre 376px e 768px*/
@@ -173,26 +177,27 @@ footer {
     
     .remedios{
         display: flex;
-        column-gap: 3rem; /* espaçamento entre os remédios */
+        column-gap: 1rem; /* espaçamento entre os remédios */
         align-items: center;
         justify-content: center;
     }
 
     h3 {
-        font-size: 35px;
+        font-size: 35px !important;
+        margin-top: 30px !important;
     }
 
     /*Limita o tamanho do card da lista*/
     img {
-        width: 150px;
-        height: 150px;
+        width: 180px;
+        height: 180px;
     }
 
     li {
         font-size: 20px;
     }
 
-    button {
+    .button-compra {
         padding: 10px;
         padding-left: 20px;
         padding-right: 20px;
@@ -203,10 +208,6 @@ footer {
     footer{
         font-size: 16px;
         padding: 1.5rem;
-    }
-
-    .p-footer {
-        margin: 3px;
     }
 }
 
@@ -240,16 +241,15 @@ footer {
     }
 
     img{
-        width: 130px;
-        height: 130px;
+        width: 135px;
+        height: 135px;
     }
     
-    button{
+    .button-compra{
         font-size: 15px;
+        padding: 5px;
         padding-inline: 15px;
     }
-
-    
 }
 
 
