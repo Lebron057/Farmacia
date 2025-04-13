@@ -55,12 +55,24 @@ h1{
     font-size: 17px;
 }
 
+nav ul{
+    background-color: var(--azul-site);
+    display: flex;
+    list-style-type: none;
+}
+
+nav a:hover{
+    background-color: beige;
+    color: var(--azul-site);
+}
+
 a {
-    padding-right: 10px;
+    padding-inline: 10px;
     align-items: center;
     justify-content: center;
     text-decoration: none; /*Tira o sublinhado do texto*/
     color: white;
+    border-radius: 5px;
 }
 /*todos os elementos da navbar*/
 
@@ -87,7 +99,7 @@ h3 {
     gap: 2rem;
 }
 
-li {
+.list-remedio {
     border-radius: 10px;
     background-color: beige;
     color: rgb(29, 92, 175);
