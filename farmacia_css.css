@@ -148,7 +148,7 @@ footer {
     
     header {
         padding: 1rem;
-        padding-left: 15px;
+        padding-inline: 0px;
         align-items: start;
     }
 
