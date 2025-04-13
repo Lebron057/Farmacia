@@ -37,7 +37,7 @@ h1{
     font-size: 50px;
 }
 
-.logo{
+.logo-titulo{
     display: flex;
     align-items: center; /*Alinha os itens*/
 }
