@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    padding: 2rem;
+    padding: 1rem;
     padding-left: 1rem;
     background-color: var(--azul-site);
     color: beige;
