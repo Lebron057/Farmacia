@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --verde-primario: #537D5D;
+    --verde-secundario: #73946B;
+    --verde-terciario: #9EBC8A;
+    --cinza-primario: #D2D0A0;
+
+    --fonte-principal: "Montserrat", sans-serif;
+    --fonte-secundaria: "Open Sans", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--cinza-primario);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--verde-terciario);
+    padding: 1%;
+}
+
+.titulo__img {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    width: 13rem;
+}
+
+.titulo__img__logo{
+    width: 5rem;
+}
+
+h1 {
+    font-family: var(--fonte-principal);
+    color: black;
+}
+
+
+/* 1. Estiliza o container que segura o ícone e o input */
+.container-pesquisa {
+    position: relative; /* posicionar o ícone dentro dele */
+    width: 30rem;
+}
+
+.icone-lupa {
+    /* Posiciona o ícone absolutamente dentro do container */
+    position: absolute; 
+    
+    /* Centraliza o ícone verticalmente de forma perfeita */
+    top: 50%;
+    transform: translateY(-50%);
+
+    /* Define a posição a partir da esquerda */
+    left: 15px; 
+    
+    /* Tamanho e cor do ícone */
+    width: 20px;
+    height: 20px;
+    stroke: #888; /* Cor da borda do ícone */
+}
+
+/* 3. Ajusta o input original para dar espaço ao ícone */
+.input-pesquisa {
+    width: 100%; /*Faz o input ocupar todo o espaço do container */
+    height: 2.5rem;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding-left: 45px; /* (largura do ícone + espaçamento esquerdo) */
+    font-size: 1rem;
+}
+
+/* (Opcional) Melhora o estilo visual quando o campo está focado */
+.input-pesquisa:focus {
+    outline: none;
+    border-color: var(--verde-primario);
+    box-shadow: 0 0 5px rgba(83, 125, 93, 0.5);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav__menu {
+    display: flex;
+    gap: 3rem;
+}
+
+.menu__links {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-family: var(--fonte-principal);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.menu__links__logo {
+    width: 5vh;
+}
+
+
+.banner {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
+.banner__div {
+    background-color: var(--verde-terciario);
+    padding: 50px;
+    border-radius: 10px;
+    width: 60%;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+}
+
+.filtro {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.filtro__item{
+    background-color: var(--verde-terciario);
+    display: flex;
+    gap: 10px;
+    padding: 0.5%;
+    flex-direction: column;
+    border: solid;
+    border-color: var(--verde-primario);
+    border-width: 4px;
+    border-radius: 20px;
+    align-items: center;
+    font-family: var(--fonte-secundaria);
+}
+
+.campo-produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3%;
+    gap: 50px;
+}
+
+.campo-produto__titulo{
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.campo-produto__cards {
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+
+.campo-produto__cards__card {
+    border: solid;
+    border-width: 0.5px;
+    border-color: var(--verde-primario);
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    padding: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 200px;  /* Largura fixa do card */
+    height: 400px; /* Altura fixa do card */
+}
+
+.campo-produto__cards__card__img {
+    border-radius: 10px; 
+    object-fit: cover;
+}
+
+.campo-produto__cards__card__descricao{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+    font-family: var(--fonte-secundaria);
+    font-size: 18px;
+}
+
+
+.campo-produto__cards__card__descricao__preco {
+    font-weight: 700;
+}
+
+.campo-produto__cards__card__button{
+    padding: 4%;
+    width: 100%;
+    border-radius: 10px;
+    border-width: 0;
+
+    font-family: var(--fonte-principal);
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--verde-primario);
+    background-color: var(--verde-terciario);
+    transition: background-color 0.3s ease; 
+}
+
+.campo-produto__cards__card__button:hover{
+    background-color: var(--verde-primario);
+    color: var(--verde-terciario);
+}
+
+.campo-produto__cards__card__button:active{
+    transition: 0s ease;
+    background-color: #283f2d;
+}
+
+footer{
+    background-color: var(--verde-terciario);
+    text-align: center;
+    padding: 3%;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+}

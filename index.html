@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Farmácia de Pompeia</title>
+        <link rel="shortcut icon" href="assets/icons/farmacia_icon.svg" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <nav>
+
+                <!-- Logo da farmácia com ancora -->
+                <div>
+                    <a class="titulo__img" href="#">
+                        <img class="titulo__img__logo" src="./assets/icons/farmacia_icon.svg" alt="~Logo~">
+                        <h1>Farmácia Pompeia</h1>
+                    </a>
+                </div>
+
+                <form>
+                    <div class="container-pesquisa">
+    
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="icone-lupa">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg>
+
+                        <input class="input-pesquisa" type="text" placeholder="Pesquise aqui">
+
+                    </div>
+                </form>
+
+                <ul class="nav__menu">
+
+                    <li><a class="menu__links" href="">
+                        <img class="menu__links__logo" src="./assets/icons/perfil_icon.svg" alt="perfil">
+                        <p>Entrar ou Cadastrar</p>
+                    </a></li>
+
+                    <li><a class="menu__links" href="">
+                        <img class="menu__links__logo" src="./assets/icons/sacola_shop_icon.svg" alt="box">
+                        <p>Acompanhar pedidos</p>
+                    </a></li>
+                    
+                    <li><a class="menu__links" href="">
+                        <img class="menu__links__logo" src="./assets/icons/carrinho_icon.svg" alt="carrinho">
+                        <p>Carrinho</p>
+                    </a></li>
+                
+                </ul>
+
+            </nav>
+        </header>
+        <main>
+            <!-- banner com frase ou promoção -->
+            <section class="banner">
+                <div class="banner__div">
+                    <h2>Frases lindas e bonitas ue se referem a magnifica loja de drogas autorizadas pelo maravilhoso governo brasileiro!</h2>
+                </div>
+            </section>
+            
+            <!-- Filtro dos produtos -->
+            <section>
+                <!-- Lista do tipo de produtos -->
+                <ul class="filtro">
+                    <li class="filtro__item">
+                        <div>
+                            <img style="width: 50px;" src="./assets/icons/fire.svg" alt="">
+                        </div>
+                        <p>Mais populares</p>
+                    </li>
+                    <li class="filtro__item">
+                        <div>
+                            <img style="width: 50px;" src="./assets/icons/fitness_center.svg" alt="">
+                        </div>
+                        <p>Suplementação</p>
+                    </li>
+                    <li class="filtro__item">
+                        <div>
+                            <img style="width: 50px;" src="./assets/icons/pilula.svg" alt="">
+                        </div>
+                        <p>Anti-inflamatório</p>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- produtos -->
+            <section class="campo-produto"> <!-- campo do produto -->
+            
+                <div class="campo-produto__sessao"> <!--Mais populares-->
+                    <h3 class="campo-produto__titulo">Mais populares</h3>
+                    
+                    <div class="campo-produto__cards"> <!-- cards -->
+                    
+                        <div class="campo-produto__cards__card"> <!-- card -->
+                            <img class="campo-produto__cards__card__img" src="./assets/produtos/deca.webp" alt="">
+                            <div class="campo-produto__cards__card__descricao">
+                                <p>Deca Durabolin 50mg Aspen 1x1ml</p>
+                                <p class="campo-produto__cards__card__descricao__preco">R$ 23,23</p>
+                            </div>
+                            <button class="campo-produto__cards__card__button">
+                                Comprar
+                            </button>
+                        </div>
+                    
+                        <div class="campo-produto__cards__card"> <!-- card -->
+                            <img class="campo-produto__cards__card__img" src="./assets/produtos/rinosoro.webp" alt="">
+                            <div class="campo-produto__cards__card__descricao">
+                                <p>Rinosoro Jet Infantil 0,9% 100 Ml</p>
+                                <p class="campo-produto__cards__card__descricao__preco">R$ 48,54</p>
+                            </div>
+                            <button class="campo-produto__cards__card__button">
+                                Comprar
+                            </button>
+                        </div>
+                    
+                        <div class="campo-produto__cards__card"> <!-- card -->
+                            <img class="campo-produto__cards__card__img" src="./assets/produtos/Protetor Solar Facial.webp" alt="">
+                            <div class="campo-produto__cards__card__descricao">
+                                <p>Protetor Solar Actine Colors FPS70</p>
+                                <p class="campo-produto__cards__card__descricao__preco">R$ 77,99</p>
+                            </div>
+                            <button class="campo-produto__cards__card__button">
+                                Comprar
+                            </button>
+                        </div>
+                    
+                        <div class="campo-produto__cards__card"> <!-- card -->
+                            <img class="campo-produto__cards__card__img" src="./assets/produtos/fralda.webp" alt="">
+                            <div class="campo-produto__cards__card__descricao">
+                                <p>Fralda Ajuste Total Pampers Pants G - 72 Unidades</p>
+                                <p class="campo-produto__cards__card__descricao__preco">R$ 23,23</p>
+                            </div>
+                            <button class="campo-produto__cards__card__button">
+                                Comprar
+                            </button>
+                        </div>
+                    
+                    </div>
+                </div>
+
+                <div class="campo-produto__sessao"> <!--Suplementação-->
+                    <h3 class="campo-produto__titulo">Suplementação</h3>
+                    
+                    <div class="campo-produto__cards"> <!-- cards -->
+                    
+                        <div class="campo-produto__cards__card"> <!-- card -->
+                            <img class="campo-produto__cards__card__img" src="./assets/produtos/whey max.webp" alt="">
+                            <div class="campo-produto__cards__card__descricao">
+                                <p>Whey Protein Max Titanium 100% Whey Baunilha 900g</p>
+                                <p class="campo-produto__cards__card__descricao__preco">R$ 146,89</p>
+                            </div>
+                            <button class="campo-produto__cards__card__button">
+                                Comprar
+                            </button>
+                        </div>
+                    
+                        <div class="campo-produto__cards__card"> <!-- card -->
+                            <img class="campo-produto__cards__card__img" src="./assets/produtos/creatine max.webp" alt="">
+                            <div class="campo-produto__cards__card__descricao">
+                                <p>Max Titanium Creatina 100g</p>
+                                <p class="campo-produto__cards__card__descricao__preco">R$ 37,90</p>
+                            </div>
+                            <button class="campo-produto__cards__card__button">
+                                Comprar
+                            </button>
+                        </div>
+                    
+                        <div class="campo-produto__cards__card"> <!-- card -->
+                            <img class="campo-produto__cards__card__img" src="./assets/produtos/yopro.webp" alt="">
+                            <div class="campo-produto__cards__card__descricao">
+                                <p>YoPRO Bebida Láctea UHT Chocolate 25g de proteínas 250ml</p>
+                                <p class="campo-produto__cards__card__descricao__preco">R$ 9,11</p>
+                            </div>
+                            <button class="campo-produto__cards__card__button">
+                                Comprar
+                            </button>
+                        </div>
+                    
+                        <div class="campo-produto__cards__card"> <!-- card -->
+                            <img class="campo-produto__cards__card__img" src="./assets/produtos/pre-treino.webp" alt=""> <!-- Quando a imagem vem maior quebra, como resolver? -->
+                            <div class="campo-produto__cards__card__descricao">
+                                <p>Pré-Treino Haze Hardcore 300g - Growth Supplements</p>
+                                <p class="campo-produto__cards__card__descricao__preco">R$ 89,90</p>
+                            </div>
+                            <button class="campo-produto__cards__card__button">
+                                Comprar
+                            </button>
+                        </div>
+                    
+                    </div>
+                </div>
+                
+                <div class="campo-produto__sessao"> <!--Antiflamatórios-->
+                    <h3 class="campo-produto__titulo">Antiflamatórios</h3>
+                    
+                    <div class="campo-produto__cards"> <!-- cards -->
+                    
+                        <div class="campo-produto__cards__card"> <!-- card -->
+                            <img class="campo-produto__cards__card__img" src="./assets/produtos/carproflan.webp" alt="">
+                            <div class="campo-produto__cards__card__descricao">
+                                <p>Carproflan Anti-Inflamatório caixa c/ 14 comprimidos</p>
+                                <p class="campo-produto__cards__card__descricao__preco">R$ 54,50</p>
+                            </div>
+                            <button class="campo-produto__cards__card__button">
+                                Comprar
+                            </button>
+                        </div>
+                    
+                        <div class="campo-produto__cards__card"> <!-- card -->
+                            <img class="campo-produto__cards__card__img" src="./assets/produtos/ibuprofeno.webp" alt="">
+                            <div class="campo-produto__cards__card__descricao">
+                                <p>Anti-inflamatório Ibuprofeno Medley Genérico em Gotas 30ml</p>
+                                <p class="campo-produto__cards__card__descricao__preco">R$ 10,90</p>
+                            </div>
+                            <button class="campo-produto__cards__card__button">
+                                Comprar
+                            </button>
+                        </div>
+                    
+                        <div class="campo-produto__cards__card"> <!-- card -->
+                            <img class="campo-produto__cards__card__img" src="./assets/produtos/tylenol.webp" alt="">
+                            <div class="campo-produto__cards__card__descricao">
+                                <p>Tylenol DC 20 Comprimidos</p>
+                                <p class="campo-produto__cards__card__descricao__preco">R$ 38,00</p>
+                            </div>
+                            <button class="campo-produto__cards__card__button">
+                                Comprar
+                            </button>
+                        </div>
+                    
+                        <div class="campo-produto__cards__card"> <!-- card -->
+                            <img class="campo-produto__cards__card__img" src="./assets/produtos/naproxeno.webp" alt=""> <!-- Quando a imagem vem maior quebra, como resolver? -->
+                            <div class="campo-produto__cards__card__descricao">
+                                <p>Naproxeno Sódico 550 Mg C/ 20 Comprimidos</p>
+                                <p class="campo-produto__cards__card__descricao__preco">R$ 40,73</p>
+                            </div>
+                            <button class="campo-produto__cards__card__button">
+                                Comprar
+                            </button>
+                        </div>
+                    
+                    </div>
+                </div>
+
+            </section>
+        
+        </main>
+        <footer>
+            <p>&copy; Direitos preservados - Synapse</p>
+        </footer>
+    </body>
+</html>
